@@ -2,9 +2,10 @@ package chapter3.enums;
 
 public enum PaymentStatus {
 
-	SUCCESS("200", "İşlem başarılıdır."), 
-	PROVISION("202", "İşlem bankada askıda beklemektedir."), 
-	FAIL("500", "İşlem başarısızdır.");
+	UNKNOWN( "100", "Bilinmeyen işlem tipi." ),
+	SUCCESS( "200", "İşlem başarılıdır." ), 
+	PROVISION( "202", "İşlem bankada askıda beklemektedir." ), 
+	FAIL( "500", "İşlem başarısızdır.");
 	
 	
 	// değişkenler
